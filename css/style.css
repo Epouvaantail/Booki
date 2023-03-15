@@ -1,6 +1,7 @@
 * { 
     box-sizing: border-box;
 }
+
 /* définition du corps */
 body {
     font-family: 'Raleway', sans-serif;
@@ -326,6 +327,7 @@ form .recherche button i {
     transform: scale(1.1);
     
 }
+
 .media-hebergements {
     width: 235px;
     height: 120px;
