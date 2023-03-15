@@ -510,6 +510,42 @@ footer div {
     margin-right: 160px;
 }
 
+@media all and (min-width: 992px){
+    .hebergements{
+        width: 100%;
+        height: 100%;
+    }
+
+    .title-hebergements {
+        margin-left: 40px;
+        font-weight: 700;
+        font-size: 22px;
+        height: 60px;
+    }
+
+    .cardhebergements {
+        height: 90%;
+    }
+
+    .bloc-card-hebergements {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .bloc-card-hebergements a {
+        width: 30%;
+    }
+
+
+    .media-hebergements {
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+}
+
 
 
 /* -- Version Téléphone portable -- */
