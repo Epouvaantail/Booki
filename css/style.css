@@ -186,7 +186,7 @@ form .recherche button i {
     display: flex;
     flex-wrap: nowrap;
     align-items: baseline;
-    gap: 55px;
+    gap: 45px;
 }
 
 .filtres a {
@@ -412,7 +412,7 @@ form .recherche button i {
 
 .media-popular {
     width: 31%;
-    height: 93%;
+    height: 94%;
     object-fit: cover;
     border-radius: 1em 0 0 1em;
     margin-top: 5px;
@@ -475,9 +475,8 @@ form .recherche button i {
 
 footer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     background-color: #F2F2F2;
     margin-top: 61px;
 }
@@ -493,6 +492,7 @@ footer ul {
 ul a {
     text-decoration: none;
     color: black;
+    white-space: nowrap;
 }
 
 footer ul li {
@@ -504,16 +504,16 @@ footer h3 {
 }
 
 footer div {
-    display: block;
-    padding: 45px;
+    display: flex;
+    padding: 47px 0 45px 0px;
     text-align: left;
-    margin-right: 160px;
+    margin-right: 13%;
+    flex-direction: column;
 }
 
 @media all and (min-width: 992px){
     .hebergements{
         width: 100%;
-        height: 100%;
     }
 
     .title-hebergements {
@@ -774,7 +774,7 @@ footer div {
         object-fit: cover;
         border-radius: 20px 20px 0 0;
         margin: 5px;
-        width: 97.8%;
+        width: 99%;
 
     }
 
